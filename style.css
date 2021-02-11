@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+  color: #ffffff;
+}
+
+.location,
+.temp {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.temp {
+  flex-direction: column;
+}
+
+.degreeSection {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.degreeSection span {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.degreeSection h2 {
+  font-size: 40px;
+}
+
+.descrip {
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+input,
+button {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  padding-left: 23px;
+  font-family: inherit;
+}
+
+button {
+  padding-left: 10px;
+  cursor: pointer;
+  background-color: aqua;
+  transition: 0.1s all;
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: cornsilk;
+  transform: scale(1.1);
+}
