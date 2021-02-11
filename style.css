@@ -12,6 +12,7 @@ body {
   align-items: center;
   background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
   color: #ffffff;
+  font-family: "Poppins";
 }
 
 .location,
